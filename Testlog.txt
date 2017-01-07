@@ -1,0 +1,61 @@
+testcase1:
+    [info] Executing: |open | https://www.google.com/ | |
+    [info] Executing: |type | id=gbqfq | ebay |
+    [info] Executing: |clickAndWait | link=exact:eBay: Electronics, Cars, Fashion, Collectibles, Coupons and ... | |
+    [info] Executing: |clickAndWait | link=Sign in | |
+    [info] Executing: |type | id=userid | silpa_01s@rediffmail.com |
+    [info] Executing: |type | id=pass | shilpa123 |
+    [info] Executing: |clickAndWait | id=sgnBt | |
+    [info] Executing: |click | id=gh-ug | |
+    [info] Executing: |clickAndWait | link=Sign out | | 
+testcase2:
+    [info] Executing: |type | id=gbqfq | ebay |
+    [info] Executing: |clickAndWait | link=exact:eBay: Electronics, Cars, Fashion, Collectibles, Coupons and ... | |
+    [info] Executing: |clickAndWait | link=Collector & Hobbyist Toys | |
+    [info] Executing: |clickAndWait | link=Educational | |
+    [info] Executing: |clickAndWait | id=gh-btn | | 
+
+testcase3:
+    [info] Executing: |open | https://www.google.com/ | |
+    [info] Executing: |type | id=gbqfq | ebay.com |
+    [info] Executing: |clickAndWait | link=exact:eBay: Electronics, Cars, Fashion, Collectibles, Coupons and ... | |
+    [info] Executing: |clickAndWait | link=Collector & Hobbyist Toys | |
+    [info] Executing: |clickAndWait | link=Educational | |
+    [info] Executing: |click | id=zip_codeFld | |
+    [info] Executing: |type | id=zip_codeFld | 95045 |
+    [info] Executing: |click | id=zip_e1-95 | | 
+
+testcase4:
+info] Executing: |open | http://www.ebay.com/ | |
+[info] Executing: |clickAndWait | link=Collector & Hobbyist Toys | |
+[info] Executing: |clickAndWait | link=Educational | |
+[info] Executing: |clickAndWait | css=img.img | |
+[info] Executing: |clickAndWait | id=isCartBtn_btn | | 
+
+
+testcase5:
+
+    [info] Executing: |open | https://www.google.com/#q=ebay | |
+    [info] Executing: |clickAndWait | link=exact:eBay: Electronics, Cars, Fashion, Collectibles, Coupons and ... | |
+    [info] Executing: |clickAndWait | link=Collector & Hobbyist Toys | |
+    [info] Executing: |clickAndWait | link=Educational | |
+    [info] Executing: |clickAndWait | css=img.img | |
+    [info] Executing: |clickAndWait | id=isCartBtn_btn | | 
+testcase6:
+[info] Executing: |clickAndWait | link=exact:eBay: Electronics, Cars, Fashion, Collectibles, Coupons and ... | |
+[info] Executing: |clickAndWait | link=Collector & Hobbyist Toys | |
+[info] Executing: |clickAndWait | link=Educational | |
+[info] Executing: |clickAndWait | id=e1-34 | | 
+
+testcase7:
+    [info] Changed test case
+    [info] Executing: |open | http://www.ebay.com/ | |
+    [info] Executing: |clickAndWait | link=Sign in | |
+    [info] Executing: |type | id=userid | silpa_01s@rediffmail.com |
+    [info] Executing: |type | id=pass | shilpa123 |
+    [info] Executing: |clickAndWait | id=sgnBt | |
+    [info] Executing: |clickAndWait | link=Collector & Hobbyist Toys | |
+    [info] Executing: |clickAndWait | css=img[alt="LOT"] | |
+    [info] Executing: |clickAndWait | css=img.img | |
+    [info] Executing: |click | id=watchLink | |
+    [info] Executing: |clickAndWait | link=Watch list | | 
